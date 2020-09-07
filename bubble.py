@@ -23,7 +23,7 @@ def bubbleDesc(ls):
     return ls
 
 
-ls = [1000,23,45,2,3,1,8,56,11,25,31,100,89]
+ls = [2000,23,45,2,3,1,8,56,11,25,31,100,89]
 print(f'Before Bubble Sort:', ls)
 ls = bubbleAesc(ls)
 print(f'After Bubble Sort:', ls)
