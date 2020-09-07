@@ -1,6 +1,6 @@
 
 
-#Ascending Order Function
+#Ascending Order
 def bubbleAesc(list):
 
     for rval in range(len(list)-1, 0, -1):
@@ -11,7 +11,7 @@ def bubbleAesc(list):
                 list[indx] = temp
     return list
 
-#Descending Order Function
+#Descending Order
 def bubbleDesc(ls):
 
     for findx in range(len(ls)-1):
@@ -27,4 +27,3 @@ ls = [1000,23,45,2,3,1,8,56,11,25,31,100,89]
 print(f'Before Bubble Sort:', ls)
 ls = bubbleAesc(ls)
 print(f'After Bubble Sort:', ls)
-
