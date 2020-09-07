@@ -1,6 +1,6 @@
 
 
-#Ascending Order Function
+# Ascending Order Function
 def bubbleAesc(list):
 
     for rval in range(len(list)-1, 0, -1):
@@ -11,7 +11,7 @@ def bubbleAesc(list):
                 list[indx] = temp
     return list
 
-#Descending Order Function
+# Descending Order Function
 def bubbleDesc(ls):
 
     for findx in range(len(ls)-1):
