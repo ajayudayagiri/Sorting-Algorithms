@@ -1,5 +1,5 @@
 
-#Ascending Order
+
 def bubbleAesc(list):
 
     for rval in range(len(list)-1, 0, -1):
@@ -11,7 +11,7 @@ def bubbleAesc(list):
     return list
 
 
-#Descending Order
+
 def bubbleDesc(ls):
 
     for findx in range(len(ls)-1):
